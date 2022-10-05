@@ -26,7 +26,8 @@
         "net6.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://stonepagamentos.pkgs.visualstudio.com/_packaging/FinancialProductsArtifacts/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
