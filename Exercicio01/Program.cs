@@ -21,8 +21,8 @@ namespace Exercicio01
             Console.WriteLine("Produtos:");
             Console.WriteLine($"{produto1}, cujo preço é $ {preco1:F2}");
             Console.WriteLine($"{produto2}, cujo preço é $ {preco2:F2}");
-            Console.WriteLine($"\n Registro: {idade} anos de idade, código {codigo} e gênero: {genero}");
-            Console.WriteLine($"\n Medida com oito casas decimais: {medida:F8}");
+            Console.WriteLine($"\nRegistro: {idade} anos de idade, código {codigo} e gênero: {genero}");
+            Console.WriteLine($"\nMedida com oito casas decimais: {medida:F8}");
             Console.WriteLine($"Arredondado (três casas decimais): {medida:F3}");
             Console.WriteLine($"Separador decimal invariant culture: {medida.ToString("F2", CultureInfo.InvariantCulture)}");
             
